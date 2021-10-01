@@ -1,3 +1,85 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    background: whitesmoke;
+    background: white;
+    font-family: Helvetica, sans-serif ;
+}
+
+.header { 
+    background: #555;
+    overflow: auto;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.About {
+    padding-top: 100px;
+}
+
+#navBar {
+    background:white;
+    font-family: helvetica, sans-serif;
+    font-style: normal;
+    color: black;
+    text-decoration: none;
+    float: left;
+    display: block;
+    text-align: left;
+    width: 100%;
+}
+
+a {
+    font-family: helvetica, sans-serif;
+    color: black;
+}
+
+div {
+    width: 100%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+#About {
+    display: block;
+    background-color: rgba(201, 201, 201, 0.644);  
+}
+
+#Bio {
+    background-color: #202020;
+    background-image: url('./Pictures/barbell.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: 100%;
+    color: #ffffff;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+#Bio p {
+    font-size: 20px;
+}
+
+#Services {
+    display: block;
+    background-color: rgb(155, 9, 9);
+}
+
+#Rates {
+    display: block;
+    height: 600px;
+}
+
+#Contact {
+    display: block;
+    height: 600px;
 }
