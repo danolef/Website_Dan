@@ -146,6 +146,16 @@ th, td {
     width: auto;
 }
 
+th {
+    background-color: #202020;
+    color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+
+}
+
 #Contact {
     padding-top: 1px;
     padding-bottom: 1px;
