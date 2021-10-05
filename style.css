@@ -4,14 +4,18 @@ html {
 
 body {
     background: white;
-    font-family: Helvetica, sans-serif ;
 }
 
 .header { 
-    background: #555;
+    background-color: #202020;
+    background-image: url('./Pictures/pattern.pdf');
+    background-position: center center;
+    background-repeat: repeat;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: 100%;
     overflow: auto;
     width: 100%;
-    padding-top: 10px;
 }
 
 .sticky {
@@ -20,13 +24,15 @@ body {
     width: 100%;
 }
 
-.About {
+/*.sticky + .body{
     padding-top: 100px;
-}
+}*/
 
 #navBar {
     background:white;
-    font-family: helvetica, sans-serif;
+    font-family: Oswald;
+    font-size: 50px;
+    font-weight: 400;
     font-style: normal;
     color: black;
     text-decoration: none;
@@ -37,22 +43,31 @@ body {
 }
 
 a {
-    font-family: helvetica, sans-serif;
+    font-family: Oswald;
+    font-weight: 500;
+    font-size: 30px;
     color: black;
 }
 
-div {
+/*div {
     width: 100%;
     padding-top: 1px;
     padding-bottom: 1px;
+}*/
+
+h1 {
+    font-size: 80px;
+    font-family: Oswald;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 60px;
+    font-family: Oswald;
+    font-weight: 500;
 }
 
 #About {
-    display: block;
-    background-color: rgba(201, 201, 201, 0.644);  
-}
-
-#Bio {
     background-color: #202020;
     background-image: url('./Pictures/barbell.jpg');
     background-position: center center;
@@ -63,15 +78,48 @@ div {
     color: #ffffff;
     padding-top: 1px;
     padding-bottom: 1px;
+    display: block;
+    font-size: 30px;
+    font-family: Oswald;
+    font-weight: 200; 
 }
 
-#Bio p {
-    font-size: 20px;
+.firstP {
+    font-size: 50px;
+    font-family: Oswald;
+    font-weight: 400;
+}
+#Bio {
+    background-color: white;
+    font-size: 30px;
+    font-family: Oswald;
+    font-weight: 200;
+}
+
+#Bio img {
+    max-width: 300px;
+    max-height: auto;
+    padding-right: 10px;
+    float: left;
+    overflow: auto
 }
 
 #Services {
+    background-color: #202020;
+    background-image: url('./Pictures/weights.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: 100%;
+    color: #ffffff;
+    padding-top: 1px;
+    padding-bottom: 1px;
     display: block;
-    background-color: rgb(155, 9, 9);
+    font-size: 30px;
+    font-family: Oswald;
+    font-weight: 200; 
+    
 }
 
 #Rates {
