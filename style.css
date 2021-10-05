@@ -157,6 +157,8 @@ tr:nth-child(odd) {
 }
 
 #Contact {
+    background-color: #202020;
+    color: white;
     padding-top: 1px;
     padding-bottom: 1px;
     display: block;
