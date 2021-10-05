@@ -6,22 +6,23 @@ body {
     background: white;
 }
 
-.header { 
+#myHeader { 
     background-color: #202020;
-    background-image: url('./Pictures/pattern.pdf');
+    background-image: url('./Pictures/texture.jpg');
     background-position: center center;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     min-width: 100%;
     min-height: 100%;
     background-size: 100%;
+    display: block;
     overflow: auto;
     width: 100%;
 }
 
-.sticky {
+/*.sticky {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100%;*/
 }
 
 /*.sticky + .body{
@@ -49,11 +50,11 @@ a {
     color: black;
 }
 
-/*div {
+div {
     width: 100%;
     padding-top: 1px;
     padding-bottom: 1px;
-}*/
+}
 
 h1 {
     font-size: 80px;
@@ -123,11 +124,33 @@ h2 {
 }
 
 #Rates {
+    padding-top: 1px;
+    padding-bottom: 1px;
     display: block;
-    height: 600px;
+    font-size: 30px;
+    font-family: Oswald;
+    font-weight: 200;
+}
+
+table{
+    width: 75%;
+    padding-left: 30px;
+    margin-left: 30px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    width: auto;
 }
 
 #Contact {
+    padding-top: 1px;
+    padding-bottom: 1px;
     display: block;
-    height: 600px;
+    font-size: 30px;
+    font-family: Oswald;
+    font-weight: 200; 
 }
