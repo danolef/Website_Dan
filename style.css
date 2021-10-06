@@ -33,11 +33,10 @@ header {
 }*/
 
 #navBar {
-    background:white;
+    background: rgb(189, 188, 188);
     font-family: Oswald;
     font-size: 50px;
     font-weight: 400;
-    font-style: normal;
     color: black;
     text-decoration: none;
     float: left;
@@ -51,6 +50,11 @@ a {
     font-weight: 500;
     font-size: 30px;
     color: black;
+    text-decoration: none;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    background:rgb(189, 188, 188);
 }
 
 div {
@@ -60,9 +64,9 @@ div {
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 100px;
     font-family: Oswald;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 h2 {
@@ -134,9 +138,11 @@ h2 {
 }
 
 table{
-    width: 75%;
+    width: 95%;
     padding-left: 30px;
     margin-left: 30px;
+    padding-right: 30px;
+    margin-right: 30px;
 }
 table, th, td {
     border: 1px solid black;
