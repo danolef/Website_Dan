@@ -6,23 +6,26 @@ body {
     background: white;
 }
 
-#myHeader { 
+header {
     background-color: #202020;
-    background-image: url('./Pictures/texture.jpg');
+    background-image: url('./Pictures/darkwood.jpg');
     background-position: center center;
     background-repeat: no-repeat;
-    min-width: 100%;
+    /*min-width: 100%;
     min-height: 100%;
-    background-size: 100%;
+    background-size: 100%;*/
+}
+
+#myHeader { 
     display: block;
     overflow: auto;
     width: 100%;
 }
 
-/*.sticky {
+.sticky {
     position: fixed;
     top: 0;
-    width: 100%;*/
+    width: 100%;
 }
 
 /*.sticky + .body{
@@ -71,11 +74,10 @@ h2 {
 #About {
     background-color: #202020;
     background-image: url('./Pictures/barbell.jpg');
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
-    min-width: 100%;
-    min-height: 100%;
-    background-size: 100%;
+    overflow: hidden;
+    background-size: cover;
     color: #ffffff;
     padding-top: 1px;
     padding-bottom: 1px;
@@ -108,11 +110,10 @@ h2 {
 #Services {
     background-color: #202020;
     background-image: url('./Pictures/weights.jpg');
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
-    min-width: 100%;
-    min-height: 100%;
-    background-size: 100%;
+    overflow: hidden;
+    background-size: cover;
     color: #ffffff;
     padding-top: 1px;
     padding-bottom: 1px;
